@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".ListenPictureActivity">
+
+    <ImageView
+        android:id="@+id/iv_camera_display"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:contentDescription="@string/listen_picture_camera_display" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBlue"
+            android:text="@string/listen_picture_open_camera"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_listen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed"
+            android:text="@string/listen_picture_listen_picture"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

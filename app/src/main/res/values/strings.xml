@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VisualAuralize</string>
+    <!--    Main Activity-->
+    <string name="main_listen_picture">Listen Picture</string>
+    <string name="main_listen_picture_live">Listen Picture Live</string>
+    <string name="main_see_sound">See Sound</string>
+    <string name="main_see_sound_live">See Sound Live</string>
+    <!--    ListenPicture Activity-->
+    <string name="listen_picture_camera_display">Camera Display</string>
+    <string name="listen_picture_open_camera">Open Camera</string>
+    <string name="listen_picture_listen_picture">Listen Picture</string>
+    <!--    SeeSound Activity-->
+    <string name="see_sound_sound_display">Sound Display</string>
+    <string name="see_sound_record_sound">Record Sound</string>
+    <string name="see_sound_display">Display</string>
+</resources>

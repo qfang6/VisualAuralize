@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rl_listen_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_app_name"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp">
+
+            <Button
+                android:id="@+id/btn_listen_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_listen_picture" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_listen_picture_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_listen_picture"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <Button
+                android:id="@+id/btn_listen_picture_live"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_listen_picture_live" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_see_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_listen_picture_live"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <Button
+                android:id="@+id/btn_see_sound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_see_sound" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_see_sound_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_see_sound"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <Button
+                android:id="@+id/btn_see_sound_live"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_see_sound_live" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
