@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
             "android.permission.CAMERA"};
 
     private Button btnListenPicture;
+    private Button btnSeeSound;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initWidgets() {
         btnListenPicture = findViewById(R.id.btn_listen_picture);
+        btnSeeSound = findViewById(R.id.btn_see_sound);
     }
 
     private void setOnClickListeners() {
@@ -41,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ListenPictureActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnSeeSound.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SeeSoundActivity.class);
                 startActivity(intent);
             }
         });

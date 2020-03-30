@@ -13,4 +13,6 @@
     <string name="see_sound_sound_display">Sound Display</string>
     <string name="see_sound_record_sound">Record Sound</string>
     <string name="see_sound_display">Display</string>
+    <!--    menu.xml-->
+    <string name="main_menu_main_page">Main Page</string>
 </resources>
